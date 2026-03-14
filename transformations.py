@@ -14,6 +14,7 @@ ads_event_schema = StructType([
     StructField("device_type", StringType(), True),
     StructField("event_timestamp", StringType(), True),
     StructField("country", StringType(), True)
+    StructField("device_version", StringType(), True)
 ])
 
 
